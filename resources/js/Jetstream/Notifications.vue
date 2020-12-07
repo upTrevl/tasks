@@ -6,7 +6,7 @@
                 <div class="flex flex-row mb-2 justify-between">
                     <div class="date mr-3">30.20.2011</div>
                     <div class="font-semibold">Новая задача</div>
-                    <a href="" >X</a>
+                    <a href="">X</a>
                 </div>
                 <div class="flex flex-row">
                     <div class="date mr-3">Создатель:</div>
@@ -27,7 +27,9 @@
             }
         },
         mounted: function () {
-            this.getNotifications()
+            this.getNotifications();
+            windows.Echo.channel('new-task-chanel').listen('newTask',
+                ({task}) => this.notifications.push(task));
         },
         methods: {
             getNotifications: function () {
