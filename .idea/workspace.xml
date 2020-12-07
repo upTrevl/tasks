@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d052f2f1-330a-42c9-81e2-2398d8b66cbe" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +35,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -137,9 +158,13 @@
       <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1k4xP5m8XfX5ud8nxSyoQn55u8r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -153,6 +178,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laravel-dev\projects\tasks\public\images" />
       <recent name="D:\laravel-dev\projects\tasks\resources\js\Pages\Task" />
     </key>
   </component>
@@ -177,14 +203,36 @@
       <workItem from="1606372639400" duration="1736000" />
       <workItem from="1606375665372" duration="3866000" />
       <workItem from="1606439305413" duration="3000" />
-      <workItem from="1606448972228" duration="14013000" />
+      <workItem from="1606448972228" duration="14244000" />
+      <workItem from="1606697548060" duration="11305000" />
+      <workItem from="1606714083605" duration="11669000" />
+      <workItem from="1606784040791" duration="17822000" />
+      <workItem from="1606875056764" duration="19294000" />
+      <workItem from="1606983830637" duration="112000" />
+      <workItem from="1607303063534" duration="2646000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="1792" y="127" key="#Inspections" timestamp="1606895164997">
+      <screen x="1366" y="0" width="1600" height="900" />
+    </state>
+    <state x="1792" y="127" key="#Inspections/0.0.1366.728/1366.0.1600.900@1366.0.1600.900" timestamp="1606895164997" />
     <state x="1896" y="204" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606455432875">
       <screen x="1366" y="0" width="1600" height="900" />
     </state>

@@ -30,7 +30,7 @@ class StoreTask extends FormRequest
             'car_name' => 'nullable|max:255',
             'car_number' => 'required|max:9',
             'description' => 'required|max:255',
-            'create_by' => 'exists:users'
+            'create_by' => 'exists:users,id'
         ];
     }
 }
