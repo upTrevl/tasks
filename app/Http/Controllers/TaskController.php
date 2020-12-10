@@ -45,6 +45,7 @@ class TaskController extends Controller
         $validated = $request->validated();
         if ($validated){
             $task = Task::create($request->all());
+            \App\Events\newTask::dispatch($task);
             foreach ($users as $user){
                 $user->notify(new NewTask($task));
             }

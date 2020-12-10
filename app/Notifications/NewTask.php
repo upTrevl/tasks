@@ -20,6 +20,7 @@ class NewTask extends Notification
     public function __construct(Task $task)
     {
         $this->newTask = $task;
+
     }
 
     /**
